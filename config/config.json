@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "redux-counter-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reduxCounter/ReduxCounterWebPart.js",
+          "manifest": "./src/webparts/reduxCounter/ReduxCounterWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReduxCounterWebPartStrings": "lib/webparts/reduxCounter/loc/{locale}.js"
+  }
+}
