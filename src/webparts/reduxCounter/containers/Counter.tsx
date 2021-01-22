@@ -30,7 +30,6 @@ export default class Counter extends React.Component<IReduxCounterProps, ICounte
         return(
             <div>
                 <Output value={this.state.counter} description="test" />
-                <br></br>
                 <DefaultButton text="Increment" onClick={() => this.counterOnIncrement()} />
                 <DefaultButton text="Decrement" onClick={() => this.counterOnDecrement()} />
             </div>
